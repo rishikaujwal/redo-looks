@@ -1,15 +1,27 @@
-# Clothes Resell/Donation App
+# 👕 ReDo Looks – Clothing Resale & Donation Web App
 
-This is a React app that lets users **donate or resell clothing items**. It uses:
-- **Firebase Authentication** for user login/signup (email/password):contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}.
-- **Cloud Firestore** to store item data (name, category, price, etc.):contentReference[oaicite:12]{index=12}.
-- **Firebase Storage** for uploaded images, using `uploadBytes` and `getDownloadURL`:contentReference[oaicite:13]{index=13}:contentReference[oaicite:14]{index=14}.
-- **Tailwind CSS** for styling and responsiveness.
-- **Vercel** for easy deployment.
+ReDo Looks is a full-stack web application that allows users to **resell or donate their clothing** items seamlessly. The platform enables user authentication, item listing, and direct communication between buyers and donors. Built with the MERN stack and Firebase, this app promotes sustainable fashion and community support.
 
-## Setup Instructions
+---
 
-1. **Clone the repository** and `cd` into the project directory.
-2. **Install dependencies**:
-   ```bash
-   npm install
+## 🚀 Features
+
+- 🔐 User Authentication (Login/Signup)
+- 👕 Add items for Resale or Donation
+- 📄 View listings in separate Resale & Donation sections
+- 💬 Contact donors/sellers directly
+- 🧭 Intuitive Navigation with protected routes
+- 📱 Fully responsive and clean UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Backend & Hosting:** Firebase Authentication, Firestore Database, Firebase Hosting
+- **Other Tools:** Git, VS Code
+
+---
+
+## 📂 Folder Structure
+
